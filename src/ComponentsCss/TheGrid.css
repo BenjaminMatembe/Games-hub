@@ -1,0 +1,59 @@
+.gridcontent{
+    transform: rotate(-45deg);
+    max-width: 960px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, minmax(200px,auto));
+   
+    margin: 0 auto;
+    grid-gap: 10px;
+   
+}
+.grid div{
+    
+    padding: 10px;
+
+}
+
+
+.green{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    background: springgreen;
+}
+.grey{
+    grid-column: 5/7;
+    grid-row: 1/2;
+    background: grey;
+}
+.orange{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background:orange;
+}
+.pink{
+    grid-column: 4/6;
+    grid-row: 2/3;
+    background:pink;
+}
+.black{
+    grid-column: 6/8;
+    grid-row: 2/3;
+    background:black;
+}
+.yellow{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    background:yellow;
+}
+.maroon{
+    grid-column: 5/7;
+    grid-row: 3/4;
+    background:maroon;
+}
+
+
+
+
